@@ -1,20 +1,41 @@
 {{#partial "body"}}
 
     <h1 class=" main ">Greet me</h1>
-
+    <div class="row">
+        <p class="col-12">
+            {{greeted}}
+        </p>
+    </div>
     <form method="post" action="/hello">
         <div class="row">
             <div class="col-12">
-                First name:  <input type="text" name="firstName">
+                <h2>
+                    Enter Name and select your Language below
+                </h2>
+                <input type="text" name="firstName"> <br>
+
+                <input type="radio" name="language" value="English"> English
+                <input type="radio" name="language" value="Isixhosa"> Isixhosa
+                <input type="radio" name="language" value="Afrikaans"> Afrikaans0
             </div>
         </div>
         <div>
             <button class="btn" type="submit">
                 Greet
             </button>
-<!--            <input type="submit">-->
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
         </div>
     </form>
+
+    <a href="/users">
+        <button class="btn">
+            Greeted users
+        </button>
+    </a>
 
 {{/partial}}
 

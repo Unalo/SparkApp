@@ -1,0 +1,14 @@
+body {
+      background-color: white;
+      font-family: sans-serif;
+}
+.container {
+    margin-right: 70em;
+    font-family: sans;
+    width:100%;
+    text-align : center;
+}
+.main, .btn, .list, .msg {
+    text-align: center;
+    color: green;
+}

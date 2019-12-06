@@ -1,0 +1,36 @@
+
+{{#partial "body"}}
+    <div class="container">
+        <div>
+            <h1 class="main ">Greet me</h1>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    {{greeted}}
+                </p>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-12">
+          <p class="mgs">
+              {{message}}, {{name}}
+          </p>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-12">
+                <a href="/">
+            <button class="btn">
+                Home
+            </button>
+                </a>
+        </div>
+
+     </div>
+    </div>
+{{/partial}}
+
+{{> layout.hbs }}

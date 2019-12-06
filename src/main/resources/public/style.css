@@ -8,12 +8,7 @@ body {
     width:100%;
     text-align : center;
 }
-.main, .btn {
+.main, .btn, .list, .msg {
     text-align: center;
     color: green;
-}
-.msg {
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 100em;
 }

@@ -1,0 +1,37 @@
+
+{{#partial "body"}}
+    <div class="container">
+        <div>
+            <h1 class="main ">Greet me</h1>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Greeted names</p>
+                <ul class="people_list">
+                    {{#each users}}
+                        <li class="list">{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 ">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <a href="/">
+                    <button class="btn">
+                        greet more people
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+{{/partial}}
+
+{{> layout.hbs }}
