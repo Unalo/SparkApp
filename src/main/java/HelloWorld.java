@@ -24,8 +24,6 @@ public class HelloWorld {
              Map<String, Integer> greetedUsers = new HashMap<>();
             Map<String, Object> dataMap = new HashMap<>();
 
-
-
             post("/hello", (req, res) -> {
                 // get form data values
                 String name = req.queryParams("firstName").substring(0,1).toUpperCase() + req.queryParams("firstName").substring(1).toLowerCase();
